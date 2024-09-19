@@ -1,0 +1,146 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!-- C++Builder XML Project -->
+<PROJECT>
+  <MACROS>
+    <VERSION value="BCB.06.00"/>
+    <PROJECT value="ProjectTFS2.exe"/>
+    <OBJFILES value="ProjectTFS2.obj GlobalUnit.obj OutputScreenUnit.obj SettingsDataUnit.obj 
+      TextAttribuutUnit.obj PictureAttribuutUnit.obj SongDataUnit.obj 
+      ScreenSettingsUnit.obj KeyHandling.obj CommandTranslationUnit.obj 
+      Setup.obj Utils.obj SpeedBar.obj PopUpMenu.obj EditSong.obj Search.obj 
+      Picture.obj DirectEdit.obj Crypto.obj Sound.obj EditPlaylist.obj 
+      PreviewUnit.obj"/>
+    <RESFILES value="ProjectTFS2.res"/>
+    <DEFFILE value=""/>
+    <RESDEPEN value="$(RESFILES) GlobalUnit.dfm OutputScreenUnit.dfm Setup.dfm EditSong.dfm 
+      DirectEdit.dfm EditPlaylist.dfm PreviewUnit.dfm"/>
+    <LIBFILES value=""/>
+    <LIBRARIES value="vclx.lib rtl.lib vcl.lib"/>
+    <SPARELIBS value="vcl.lib rtl.lib vclx.lib"/>
+    <PACKAGES value="vcl.bpi rtl.bpi vclx.bpi dclocx.bpi bcbsmp.bpi"/>
+    <PATHCPP value=".;"/>
+    <PATHPAS value=".;"/>
+    <PATHRC value=".;"/>
+    <PATHASM value=".;"/>
+    <DEBUGLIBPATH value="$(BCB)\lib\debug"/>
+    <RELEASELIBPATH value="$(BCB)\lib\release"/>
+    <LINKER value="ilink32"/>
+    <USERDEFINES value=""/>
+    <SYSDEFINES value="NO_STRICT"/>
+    <MAINSOURCE value="ProjectTFS2.cpp"/>
+    <INCLUDEPATH value="D:\tfs2_check;&quot;C:\Program Files\Borland\CBuilder6\Projects&quot;;..\..\..;Projects\code\TFS2;$(BCB)\include;$(BCB)\include\vcl"/>
+    <LIBPATH value="D:\tfs2_check;&quot;C:\Program Files\Borland\CBuilder6\Projects&quot;;..\..\..;Projects\code\TFS2;$(BCB)\lib\obj;$(BCB)\lib"/>
+    <WARNINGS value="-w-par"/>
+    <OTHERFILES value=""/>
+  </MACROS>
+  <OPTIONS>
+    <CFLAG1 value="-O2 -H=$(BCB)\lib\vcl60.csm -Hc -Vx -Ve -xp -ff -X- -a8 -6 -b- -k- -vi -c 
+      -tW -tWM"/>
+    <PFLAGS value="-$Y- -$L- -$D- -$A8 -v -JPHNE -M"/>
+    <RFLAGS value=""/>
+    <AFLAGS value="/mx /w2 /zd"/>
+    <LFLAGS value="-D&quot;&quot; -aa -Tpe -x -Gn"/>
+    <OTHERFILES value=""/>
+  </OPTIONS>
+  <LINKER>
+    <ALLOBJ value="c0w32.obj sysinit.obj $(OBJFILES)"/>
+    <ALLRES value="$(RESFILES)"/>
+    <ALLLIB value="$(LIBFILES) $(LIBRARIES) import32.lib cp32mt.lib"/>
+    <OTHERFILES value=""/>
+  </LINKER>
+  <FILELIST>
+      <FILE FILENAME="ProjectTFS2.res" FORMNAME="" UNITNAME="ProjectTFS2.res" CONTAINERID="ResTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="ProjectTFS2.cpp" FORMNAME="" UNITNAME="ProjectTFS2" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="GlobalUnit.cpp" FORMNAME="MainForm" UNITNAME="GlobalUnit" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="OutputScreenUnit.cpp" FORMNAME="OutputScreen" UNITNAME="OutputScreenUnit" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="SettingsDataUnit.cpp" FORMNAME="" UNITNAME="SettingsDataUnit" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="TextAttribuutUnit.cpp" FORMNAME="" UNITNAME="TextAttribuutUnit" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="PictureAttribuutUnit.cpp" FORMNAME="" UNITNAME="PictureAttribuutUnit" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="SongDataUnit.cpp" FORMNAME="" UNITNAME="SongDataUnit" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="ScreenSettingsUnit.cpp" FORMNAME="" UNITNAME="ScreenSettingsUnit" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="KeyHandling.cpp" FORMNAME="" UNITNAME="KeyHandling" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="CommandTranslationUnit.cpp" FORMNAME="" UNITNAME="CommandTranslationUnit" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Setup.cpp" FORMNAME="SetupScreen" UNITNAME="Setup" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Utils.cpp" FORMNAME="" UNITNAME="Utils" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="SpeedBar.cpp" FORMNAME="" UNITNAME="SpeedBar" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="PopUpMenu.cpp" FORMNAME="" UNITNAME="PopUpMenu" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="EditSong.cpp" FORMNAME="EditSongForm" UNITNAME="EditSong" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Search.cpp" FORMNAME="" UNITNAME="Search" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Picture.cpp" FORMNAME="" UNITNAME="Picture" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="DirectEdit.cpp" FORMNAME="DirectEditForm" UNITNAME="DirectEdit" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Crypto.cpp" FORMNAME="" UNITNAME="Crypto" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Sound.cpp" FORMNAME="" UNITNAME="Sound" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="EditPlaylist.cpp" FORMNAME="FormEditPlaylist" UNITNAME="EditPlaylist" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="PreviewUnit.cpp" FORMNAME="Preview" UNITNAME="PreviewUnit" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+  </FILELIST>
+  <BUILDTOOLS>
+  </BUILDTOOLS>
+
+  <IDEOPTIONS>
+[Version Info]
+IncludeVerInfo=1
+AutoIncBuild=0
+MajorVer=2
+MinorVer=0
+Release=0
+Build=9
+Debug=0
+PreRelease=0
+Special=0
+Private=0
+DLL=0
+Locale=1043
+CodePage=1252
+
+[Version Info Keys]
+CompanyName=
+FileDescription=
+FileVersion=2.0.0.9
+InternalName=
+LegalCopyright=
+LegalTrademarks=
+OriginalFilename=
+ProductName=
+ProductVersion=1.0.0.0
+Comments=
+
+[HistoryLists\hlIncludePath]
+Count=3
+Item0=D:\tfs2_check;C:\Program Files\Borland\CBuilder6\Projects;..\..\..;Projects\code\TFS2;$(BCB)\include;$(BCB)\include\vcl
+Item1=C:\Program Files\Borland\CBuilder6\Projects;..\..\..;Projects\code\TFS2;$(BCB)\include;$(BCB)\include\vcl
+Item2=..\..\..;Projects\code\TFS2;$(BCB)\include;$(BCB)\include\vcl
+
+[HistoryLists\hlLibraryPath]
+Count=3
+Item0=D:\tfs2_check;C:\Program Files\Borland\CBuilder6\Projects;..\..\..;Projects\code\TFS2;$(BCB)\lib\obj;$(BCB)\lib
+Item1=C:\Program Files\Borland\CBuilder6\Projects;..\..\..;Projects\code\TFS2;$(BCB)\lib\obj;$(BCB)\lib
+Item2=..\..\..;Projects\code\TFS2;$(BCB)\lib\obj;$(BCB)\lib
+
+[HistoryLists\hlDebugSourcePath]
+Count=1
+Item0=$(BCB)\source\vcl
+
+[HistoryLists\hlConditionals]
+Count=1
+Item0=_DEBUG
+
+[Debugging]
+DebugSourceDirs=$(BCB)\source\vcl
+
+[Parameters]
+RunParams=
+Launcher=
+UseLauncher=0
+DebugCWD=
+HostApplication=
+RemoteHost=
+RemotePath=
+RemoteLauncher=
+RemoteCWD=
+RemoteDebug=0
+
+[Compiler]
+ShowInfoMsgs=0
+LinkDebugVcl=0
+  </IDEOPTIONS>
+</PROJECT>

@@ -1,0 +1,16 @@
+//AddPopUpMenu_Main_black_Black_Toggle
+
+//AddPopUpMenu_Commands_black_Black_Toggle
+
+AddPopUpMenu_Preview_Naar afspeellijst (Enter)_Playlist_Load_FromPreviewWithText
+AddPopUpMenu_Preview_Volgend couplet (->)_NextTextBlock
+AddPopUpMenu_Preview_Vorig couplet (<-)_PevTextBlock
+
+AddPopUpMenu_PlayList_Verwijder_Playlist_DeleteOne
+AddPopUpMenu_PlayList_Verwijder alles_Playlist_DeleteAll
+
+AddPopUpMenu_SearchResult_Maak zoekindex_createSearchIndex
+
+AddPopUpMenu_Picture_Kies afbeelding_Picture_OpenFile
+AddPopUpMenu_Picture_Wis afbeelding_Picture_Clear
+

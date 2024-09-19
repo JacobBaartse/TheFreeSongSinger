@@ -1,0 +1,803 @@
+CSA,Keynr,Command (take note on most key boards the right Alt button works as Control and Alt together)
+000,008,'backpace',Backspace
+000,009,'Tab'
+000,013,'Enter and numpad Enter',EnterKeyPressed
+000,016,'left and right Shift'
+000,017,'Control'
+000,018,'left and right Alt'
+000,019,'Pause',Pause_Toggle
+000,020,'Caps lock'
+000,027,'escape'
+000,032,'space',AddToInput_ 
+000,033,'Page Up'
+000,034,'Page Down'
+000,035,'End',ToEndSong
+000,036,'Home',ToBeginSong
+000,037,'Left Arrow',PevTextBlock
+000,038,'Up Arrow',Outdateline_Less
+000,039,'Right Aroow',NextTextBlock
+000,040,'Down Arrow',Outdateline_More
+000,044,'Print Screen'
+000,045,'Insert'
+000,046,'Delete',ClearUserInput
+000,048,'0',AddToInput_0
+000,049,'1',AddToInput_1
+000,050,'2',AddToInput_2
+000,051,'3',AddToInput_3
+000,052,'4',AddToInput_4
+000,053,'5',AddToInput_5
+000,054,'6',AddToInput_6
+000,055,'7',AddToInput_7
+000,056,'8',AddToInput_8
+000,057,'9',AddToInput_9
+000,065,'a',AddToInput_a
+000,066,'b',AddToInput_b
+000,067,'c',AddToInput_c
+000,068,'d',AddToInput_d
+000,069,'e',AddToInput_e
+000,070,'f',AddToInput_f
+000,071,'g',AddToInput_g
+000,072,'h',AddToInput_h
+000,073,'i',AddToInput_i
+000,074,'j',AddToInput_j
+000,075,'k',AddToInput_k
+000,076,'l',AddToInput_l
+000,077,'m',AddToInput_m
+000,078,'n',AddToInput_n
+000,079,'o',AddToInput_o
+000,080,'p',AddToInput_p
+000,081,'q',AddToInput_q
+000,082,'r',AddToInput_r
+000,083,'s',AddToInput_s
+000,084,'t',AddToInput_t
+000,085,'u',AddToInput_u
+000,086,'v',AddToInput_v
+000,087,'w',AddToInput_w
+000,088,'x',AddToInput_x
+000,089,'y',AddToInput_y
+000,090,'z',AddToInput_z
+000,091,'left windows button'
+000,092,'right windows button'
+000,093,'pop up menu button'
+000,096,'num lock on numpad 0',AddToInput_0
+000,097,'num lock on numpad 1',AddToInput_1
+000,098,'num lock on numpad 2',AddToInput_2
+000,099,'num lock on numpad 3',AddToInput_3
+000,100,'num lock on numpad 4',AddToInput_4
+000,101,'num lock on numpad 5',AddToInput_5
+000,102,'num lock on numpad 6',AddToInput_6
+000,103,'num lock on numpad 7',AddToInput_7
+000,104,'num lock on numpad 8',AddToInput_8
+000,105,'num lock on numpad 9',AddToInput_9
+000,106,'numpad *',AddToInput_*
+000,107,'numpad +',AddToInput_+ 
+000,109,'numpad -',AddToInput_-
+000,110,'num lock on numpad .',AddToInput_.
+000,111,'numpad /',AddToInput_/
+000,112,'F1'
+000,113,'F2'
+000,114,'F3'
+000,115,'F4',PlayListToScreen
+000,116,'F5',LinePointer_Toggle
+000,117,'F6',TextBlock_Toggle
+000,118,'F7',Title_Toggle
+000,119,'F8'
+000,120,'F9'
+000,121,'F10'
+000,122,'F11'
+000,123,'F12'
+000,144,'Num lock'
+000,145,'Scroll Lock'
+000,186,';',AddToInput_;
+000,187,'=',AddToInput_=
+000,188,'comma',AddToInput_comma
+000,189,'-',AddToInput_-
+000,190,'punt',AddToInput_.
+000,191,'/',AddToInput_/
+000,192,'single back qoute (~)',AddToInput_`
+000,219,'[',AddToInput_[
+000,220,'\',AddToInput_\
+000,221,']',AddToInput_]
+000,222,'single quote',AddToInput_'
+100,008,'Control backpace' 
+100,009,'Control Tab '
+100,013,'Control Enter and numpad Enter',Playlist_PrevLine,Preview_Load_FromPlaylist,Output_Load_FromPreviewWithLineNr 
+100,016,'Control left and right Shift' 
+100,017,'Control Control' 
+100,018,'Control left and right Alt' 
+100,019,'Control Pause' 
+100,020,'Control Caps lock' 
+100,027,'Control escape'
+100,032,'Control space' 
+100,033,'Control Page Up' 
+100,034,'Control Page Down' 
+100,035,'Control End' 
+100,036,'Control Home' 
+100,037,'Control Left Arrow' 
+100,038,'Control Up Arrow' 
+100,039,'Control Right Aroow' 
+100,040,'Control Down Arrow' 
+100,044,'Control Print Screen' 
+100,045,'Control Insert' 
+100,046,'Control Delete'
+100,048,'Control 0' 
+100,049,'Control 1',DirectScreen
+100,050,'Control 2' 
+100,051,'Control 3' 
+100,052,'Control 4' 
+100,053,'Control 5' 
+100,054,'Control 6' 
+100,055,'Control 7' 
+100,056,'Control 8' 
+100,057,'Control 9' 
+100,065,'Control a',AddToInput_ToSlaveScreen:
+100,066,'Control b' 
+100,067,'Control c' 
+100,068,'Control d' 
+100,069,'Control e' 
+100,070,'Control f' 
+100,071,'Control g' 
+100,072,'Control h' 
+100,073,'Control i',ChangeSetting_BackGroundPicture_OpenFile_
+100,074,'Control j' 
+100,075,'Control k' 
+100,076,'Control l' 
+100,077,'Control m' 
+100,078,'Control n' 
+100,079,'Control o' 
+100,080,'Control p' 
+100,081,'Control q' 
+100,082,'Control r' 
+100,083,'Control s' 
+100,084,'Control t' 
+100,085,'Control u' 
+100,086,'Control v',PasteClipboardBuffer
+100,087,'Control w' 
+100,088,'Control x' 
+100,089,'Control y' 
+100,090,'Control z' 
+100,091,'Control left windows button' 
+100,092,'Control right windows button' 
+100,093,'Control pop up menu button' 
+100,096,'Control num lock on numpad 0' 
+100,097,'Control num lock on numpad 1' 
+100,098,'Control num lock on numpad 2' 
+100,099,'Control num lock on numpad 3' 
+100,100,'Control num lock on numpad 4' 
+100,101,'Control num lock on numpad 5' 
+100,102,'Control num lock on numpad 6' 
+100,103,'Control num lock on numpad 7' 
+100,104,'Control num lock on numpad 8' 
+100,105,'Control num lock on numpad 9' 
+100,106,'Control numpad *'
+100,107,'Control numpad +'
+100,109,'Control numpad -' 
+100,110,'Control num lock on numpad .' 
+100,111,'Control numpad /' 
+100,112,'Control F1',ContrastAdjust_0.909
+100,113,'Control F2',ContrastAdjust_Reset
+100,114,'Control F3',ContrastAdjust_1.1
+100,115,'Control F4'
+100,116,'Control F5',ContrastAdjust_0.95238
+100,117,'Control F6',ContrastAdjust_Reset
+100,118,'Control F7',ContrastAdjust_1.05
+100,119,'Control F8' 
+100,120,'Control F9' 
+100,121,'Control F10' 
+100,122,'Control F11' 
+100,123,'Control F12' 
+100,144,'Control Num lock' 
+100,145,'Control Scroll Lock' 
+100,186,'Control ;' 
+100,187,'Control =' 
+100,188,'Control comma' 
+100,189,'Control -' 
+100,190,'Control punt' 
+100,191,'Control /' 
+100,192,'Control single back qoute (~)' 
+100,219,'Control [' 
+100,220,'Control \' 
+100,221,'Control ]' 
+100,222,'Control single quote' 
+010,008,'Shift backpace' 
+010,009,'Shift Tab 
+010,012,'Shift numpad 5'
+010,013,'Shift Enter and numpad Enter',Playlist_NextLine,Preview_Load_FromPlaylist,Output_Load_FromPreviewWithLineNr
+010,016,'Shift left and right Shift' 
+010,017,'Shift Control' 
+010,018,'Shift left and right Alt' 
+010,019,'Shift Pause',Black_Toggle
+010,020,'Shift Caps lock' 
+010,027,'Shift escape' 
+010,032,'Shift space' 
+010,033,'Shift Page Up' 
+010,034,'Shift Page Down' 
+010,035,'Shift End' 
+010,036,'Shift Home' 
+010,037,'Shift Left Arrow',PevTextBlock,PevTextBlock
+010,038,'Shift Up Arrow' 
+010,039,'Shift Right Aroow',NextTextBlock,NextTextBlock
+010,040,'Shift Down Arrow' 
+010,044,'Shift Print Screen' 
+010,045,'Shift Insert' 
+010,046,'Shift Delete',RemoveText
+010,048,'Shift 0',AddToInput_)
+010,049,'Shift 1',AddToInput_!
+010,050,'Shift 2',AddToInput_@
+010,051,'Shift 3',AddToInput_#
+010,052,'Shift 4',AddToInput_$
+010,053,'Shift 5',AddToInput_%
+010,054,'Shift 6',AddToInput_^
+010,055,'Shift 7',AddToInput_&
+010,056,'Shift 8',AddToInput_*
+010,057,'Shift 9',AddToInput_(
+010,065,'Shift a',AddToInput_A
+010,066,'Shift b',AddToInput_B
+010,067,'Shift c',AddToInput_C
+010,068,'Shift d',AddToInput_D
+010,069,'Shift e',AddToInput_E
+010,070,'Shift f',AddToInput_F
+010,071,'Shift g',AddToInput_G
+010,072,'Shift h',AddToInput_H
+010,073,'Shift i',AddToInput_I
+010,074,'Shift j',AddToInput_J
+010,075,'Shift k',AddToInput_K
+010,076,'Shift l',AddToInput_L
+010,077,'Shift m',AddToInput_M
+010,078,'Shift n',AddToInput_N
+010,079,'Shift o',AddToInput_O
+010,080,'Shift p',AddToInput_P
+010,081,'Shift q',AddToInput_Q
+010,082,'Shift r',AddToInput_R
+010,083,'Shift s',AddToInput_S
+010,084,'Shift t',AddToInput_T
+010,085,'Shift u',AddToInput_U
+010,086,'Shift v',AddToInput_V
+010,087,'Shift w',AddToInput_W
+010,088,'Shift x',AddToInput_X
+010,089,'Shift y',AddToInput_Y
+010,090,'Shift z',AddToInput_Z
+010,091,'Shift left windows button' 
+010,092,'Shift right windows button' 
+010,093,'Shift pop up menu button' 
+010,096,'Shift num lock on numpad 0' 
+010,097,'Shift num lock on numpad 1' 
+010,098,'Shift num lock on numpad 2' 
+010,099,'Shift num lock on numpad 3' 
+010,100,'Shift num lock on numpad 4' 
+010,101,'Shift num lock on numpad 5' 
+010,102,'Shift num lock on numpad 6' 
+010,103,'Shift num lock on numpad 7' 
+010,104,'Shift num lock on numpad 8' 
+010,105,'Shift num lock on numpad 9' 
+010,106,'Shift numpad *' 
+010,107,'Shift numpad +'
+010,109,'Shift numpad -' 
+010,110,'Shift num lock on numpad .' 
+010,111,'Shift numpad /' 
+010,112,'Shift F1',BrightnessAdjust_Dec_10
+010,113,'Shift F2',BrightnessAdjust_Reset
+010,114,'Shift F3',BrightnessAdjust_Inc_10
+010,115,'Shift F4' 
+010,116,'Shift F5',BrightnessAdjust_Dec_3
+010,117,'Shift F6',BrightnessAdjust_Reset
+010,118,'Shift F7',BrightnessAdjust_Inc_3
+010,119,'Shift F8' 
+010,120,'Shift F9' 
+010,121,'Shift F10' 
+010,122,'Shift F11' 
+010,123,'Shift F12' 
+010,144,'Shift Num lock' 
+010,145,'Shift Scroll Lock' 
+010,186,'Shift ;',AddToInput_:
+010,187,'Shift =',AddToInput_+
+010,188,'Shift comma',AddToInput_<
+010,189,'Shift -',AddToInput__
+010,190,'Shift punt',AddToInput_>
+010,191,'Shift /',AddToInput_?
+010,192,'Shift single back qoute (~)',AddToInput_~
+010,219,'Shift [',AddToInput_{
+010,220,'Shift \',AddToInput_|
+010,221,'Shift ]',AddToInput_}
+010,222,'Shift single quote',AddToInput_"
+110,008,'Control Shift backpace' 
+110,009,'Control Shift Tab 
+110,013,'Control Shift Enter and numpad Enter' 
+110,016,'Control Shift left and right Shift' 
+110,017,'Control Shift Control' 
+110,018,'Control Shift left and right Alt' 
+110,019,'Control Shift Pause' 
+110,020,'Control Shift Caps lock' 
+110,027,'Control Shift escape' 
+110,032,'Control Shift space' 
+110,033,'Control Shift Page Up' 
+110,034,'Control Shift Page Down' 
+110,035,'Control Shift End' 
+110,036,'Control Shift Home' 
+110,037,'Control Shift Left Arrow' 
+110,038,'Control Shift Up Arrow' 
+110,039,'Control Shift Right Aroow' 
+110,040,'Control Shift Down Arrow' 
+110,044,'Control Shift Print Screen' 
+110,045,'Control Shift Insert' 
+110,046,'Control Shift Delete' 
+110,048,'Control Shift 0' 
+110,049,'Control Shift 1' 
+110,050,'Control Shift 2' 
+110,051,'Control Shift 3' 
+110,052,'Control Shift 4' 
+110,053,'Control Shift 5' 
+110,054,'Control Shift 6' 
+110,055,'Control Shift 7' 
+110,056,'Control Shift 8' 
+110,057,'Control Shift 9' 
+110,065,'Control Shift a' 
+110,066,'Control Shift b' 
+110,067,'Control Shift c' 
+110,068,'Control Shift d' 
+110,069,'Control Shift e' 
+110,070,'Control Shift f' 
+110,071,'Control Shift g' 
+110,072,'Control Shift h' 
+110,073,'Control Shift i' 
+110,074,'Control Shift j' 
+110,075,'Control Shift k' 
+110,076,'Control Shift l' 
+110,077,'Control Shift m' 
+110,078,'Control Shift n' 
+110,079,'Control Shift o' 
+110,080,'Control Shift p' 
+110,081,'Control Shift q' 
+110,082,'Control Shift r' 
+110,083,'Control Shift s' 
+110,084,'Control Shift t' 
+110,085,'Control Shift u' 
+110,086,'Control Shift v' 
+110,087,'Control Shift w' 
+110,088,'Control Shift x' 
+110,089,'Control Shift y' 
+110,090,'Control Shift z' 
+110,091,'Control Shift left windows button' 
+110,092,'Control Shift right windows button' 
+110,093,'Control Shift pop up menu button' 
+110,096,'Control Shift num lock on numpad 0' 
+110,097,'Control Shift num lock on numpad 1' 
+110,098,'Control Shift num lock on numpad 2' 
+110,099,'Control Shift num lock on numpad 3' 
+110,100,'Control Shift num lock on numpad 4' 
+110,101,'Control Shift num lock on numpad 5' 
+110,102,'Control Shift num lock on numpad 6' 
+110,103,'Control Shift num lock on numpad 7' 
+110,104,'Control Shift num lock on numpad 8' 
+110,105,'Control Shift num lock on numpad 9' 
+110,106,'Control Shift numpad *' 
+110,107,'Control Shift numpad +'
+110,109,'Control Shift numpad -' 
+110,110,'Control Shift num lock on numpad .' 
+110,111,'Control Shift numpad /' 
+110,112,'Control Shift F1' 
+110,113,'Control Shift F2' 
+110,114,'Control Shift F3' 
+110,115,'Control Shift F4' 
+110,116,'Control Shift F5' 
+110,117,'Control Shift F6' 
+110,118,'Control Shift F7' 
+110,119,'Control Shift F8' 
+110,120,'Control Shift F9' 
+110,121,'Control Shift F10' 
+110,122,'Control Shift F11' 
+110,123,'Control Shift F12' 
+110,144,'Control Shift Num lock' 
+110,145,'Control Shift Scroll Lock' 
+110,186,'Control Shift ;' 
+110,187,'Control Shift =' 
+110,188,'Control Shift comma' 
+110,189,'Control Shift -' 
+110,190,'Control Shift punt' 
+110,191,'Control Shift /' 
+110,192,'Control Shift single back qoute (~)' 
+110,219,'Control Shift [' 
+110,220,'Control Shift \' 
+110,221,'Control Shift ]' 
+110,222,'Control Shift single quote'
+001,008,'Alt backpace' 
+001,009,'Alt Tab is already used by windows so can not be used'
+001,012,'Alt numpad 5'
+001,013,'Alt Enter and numpad Enter' 
+001,016,'Alt left and right Shift' 
+001,017,'Alt Control' 
+001,018,'Alt left and right Alt' 
+001,019,'Alt Pause' 
+001,020,'Alt Caps lock' 
+001,027,'Alt escape is already used by windows so can not be used' 
+001,032,'Alt space is already used by windows so can not be used' 
+001,033,'Alt Page Up' 
+001,034,'Alt Page Down' 
+001,035,'Alt End' 
+001,036,'Alt Home' 
+001,037,'Alt Left Arrow' 
+001,038,'Alt Up Arrow',OneLine_Up
+001,039,'Alt Right Aroow' 
+001,040,'Alt Down Arrow',OneLine_Down
+001,044,'Alt Print Screen' 
+001,045,'Alt Insert' 
+001,046,'Alt Delete' 
+001,048,'Alt 0',Setting_0
+001,049,'Alt 1',Setting_1
+001,050,'Alt 2',Setting_2
+001,051,'Alt 3',Setting_3
+001,052,'Alt 4',Setting_4
+001,053,'Alt 5',Setting_5
+001,054,'Alt 6',Setting_6
+001,055,'Alt 7',Setting_7
+001,056,'Alt 8',Setting_8
+001,057,'Alt 9',Setting_9
+001,065,'Alt a',BG_bgA
+001,066,'Alt b',BG_bgB
+001,067,'Alt c',BG_bgC
+001,068,'Alt d',BG_bgD
+001,069,'Alt e',BG_bgE
+001,070,'Alt f',BG_bgF
+001,071,'Alt g',BG_bgG
+001,072,'Alt h',BG_bgH
+001,073,'Alt i',BG_bgI
+001,074,'Alt j',BG_bgJ
+001,075,'Alt k',BG_bgK
+001,076,'Alt l',BG_bgL
+001,077,'Alt m',BG_bgM
+001,078,'Alt n',BG_bgN
+001,079,'Alt o',BG_bgO
+001,080,'Alt p',BG_bgP
+001,081,'Alt q',BG_bgQ
+001,082,'Alt r',BG_bgR
+001,083,'Alt s',BG_bgS
+001,084,'Alt t',BG_bgT
+001,085,'Alt u',BG_bgU
+001,086,'Alt v',BG_bgV
+001,087,'Alt w',BG_bgW
+001,088,'Alt x',BG_bgX
+001,089,'Alt y',BG_bgY
+001,090,'Alt z',BG_bgZ
+001,091,'Alt left windows button' 
+001,092,'Alt right windows button' 
+001,093,'Alt pop up menu button' 
+001,096,'Alt num lock on numpad 0' 
+001,097,'Alt num lock on numpad 1' 
+001,098,'Alt num lock on numpad 2' 
+001,099,'Alt num lock on numpad 3' 
+001,100,'Alt num lock on numpad 4' 
+001,101,'Alt num lock on numpad 5' 
+001,102,'Alt num lock on numpad 6' 
+001,103,'Alt num lock on numpad 7' 
+001,104,'Alt num lock on numpad 8' 
+001,105,'Alt num lock on numpad 9' 
+001,106,'Alt numpad *' 
+001,107,'Alt numpad +' 
+001,109,'Alt numpad -' 
+001,110,'Alt num lock on numpad .' 
+001,111,'Alt numpad /' 
+001,112,'Alt F1' 
+001,113,'Alt F2' 
+001,114,'Alt F3' 
+001,115,'Alt F4' 
+001,116,'Alt F5' 
+001,117,'Alt F6' 
+001,118,'Alt F7' 
+001,119,'Alt F8' 
+001,120,'Alt F9' 
+001,121,'Alt F10' 
+001,122,'Alt F11' 
+001,123,'Alt F12' 
+001,144,'Alt Num lock' 
+001,145,'Alt Scroll Lock' 
+001,186,'Alt ;' 
+001,187,'Alt =' 
+001,188,'Alt comma' 
+001,189,'Alt -' 
+001,190,'Alt punt' 
+001,191,'Alt /' 
+001,192,'Alt single back qoute (~)' 
+001,219,'Alt [' 
+001,220,'Alt \' 
+001,221,'Alt ]' 
+001,222,'Alt single quote' 
+101,008,'Control Alt backpace' 
+101,009,'Control Alt Tab 
+101,013,'Control Alt Enter and numpad Enter' 
+101,016,'Control Alt left and right Shift' 
+101,017,'Control Alt Control' 
+101,018,'Control Alt left and right Alt' 
+101,019,'Control Alt Pause' 
+101,020,'Control Alt Caps lock' 
+101,027,'Control Alt escape' 
+101,032,'Control Alt space' 
+101,033,'Control Alt Page Up' 
+101,034,'Control Alt Page Down' 
+101,035,'Control Alt End' 
+101,036,'Control Alt Home' 
+101,037,'Control Alt Left Arrow' 
+101,038,'Control Alt Up Arrow' 
+101,039,'Control Alt Right Aroow' 
+101,040,'Control Alt Down Arrow' 
+101,044,'Control Alt Print Screen' 
+101,045,'Control Alt Insert' 
+101,046,'Control Alt Delete' 
+101,048,'Control Alt 0' 
+101,049,'Control Alt 1' 
+101,050,'Control Alt 2' 
+101,051,'Control Alt 3' 
+101,052,'Control Alt 4' 
+101,053,'Control Alt 5' 
+101,054,'Control Alt 6' 
+101,055,'Control Alt 7' 
+101,056,'Control Alt 8' 
+101,057,'Control Alt 9' 
+101,065,'Control Alt a' 
+101,066,'Control Alt b' 
+101,067,'Control Alt c' 
+101,068,'Control Alt d' 
+101,069,'Control Alt e' 
+101,070,'Control Alt f' 
+101,071,'Control Alt g' 
+101,072,'Control Alt h' 
+101,073,'Control Alt i' 
+101,074,'Control Alt j' 
+101,075,'Control Alt k' 
+101,076,'Control Alt l' 
+101,077,'Control Alt m' 
+101,078,'Control Alt n' 
+101,079,'Control Alt o' 
+101,080,'Control Alt p' 
+101,081,'Control Alt q' 
+101,082,'Control Alt r' 
+101,083,'Control Alt s' 
+101,084,'Control Alt t' 
+101,085,'Control Alt u' 
+101,086,'Control Alt v' 
+101,087,'Control Alt w' 
+101,088,'Control Alt x' 
+101,089,'Control Alt y' 
+101,090,'Control Alt z' 
+101,091,'Control Alt left windows button' 
+101,092,'Control Alt right windows button' 
+101,093,'Control Alt pop up menu button' 
+101,096,'Control Alt num lock on numpad 0' 
+101,097,'Control Alt num lock on numpad 1' 
+101,098,'Control Alt num lock on numpad 2' 
+101,099,'Control Alt num lock on numpad 3' 
+101,100,'Control Alt num lock on numpad 4' 
+101,101,'Control Alt num lock on numpad 5' 
+101,102,'Control Alt num lock on numpad 6' 
+101,103,'Control Alt num lock on numpad 7' 
+101,104,'Control Alt num lock on numpad 8' 
+101,105,'Control Alt num lock on numpad 9' 
+101,106,'Control Alt numpad *' 
+101,109,'Control Alt numpad -'
+101,107,'Control Alt numpad +'
+101,110,'Control Alt num lock on numpad .' 
+101,111,'Control Alt numpad /' 
+101,112,'Control Alt F1' 
+101,113,'Control Alt F2' 
+101,114,'Control Alt F3' 
+101,115,'Control Alt F4' 
+101,116,'Control Alt F5' 
+101,117,'Control Alt F6' 
+101,118,'Control Alt F7' 
+101,119,'Control Alt F8' 
+101,120,'Control Alt F9' 
+101,121,'Control Alt F10' 
+101,122,'Control Alt F11' 
+101,123,'Control Alt F12' 
+101,144,'Control Alt Num lock' 
+101,145,'Control Alt Scroll Lock' 
+101,186,'Control Alt ;' 
+101,187,'Control Alt =' 
+101,188,'Control Alt comma' 
+101,189,'Control Alt -' 
+101,190,'Control Alt punt' 
+101,191,'Control Alt /' 
+101,192,'Control Alt single back qoute (~)' 
+101,219,'Control Alt [' 
+101,220,'Control Alt \' 
+101,221,'Control Alt ]' 
+101,222,'Control Alt single quote' 
+011,008,'Shift Alt backpace' 
+011,009,'Shift Alt Tab 
+011,013,'Shift Alt Enter and numpad Enter' 
+011,016,'Shift Alt left and right Shift' 
+011,017,'Shift Alt Control' 
+011,018,'Shift Alt left and right Alt' 
+011,019,'Shift Alt Pause' 
+011,020,'Shift Alt Caps lock' 
+011,027,'Shift Alt escape' 
+011,032,'Shift Alt space' 
+011,033,'Shift Alt Page Up' 
+011,034,'Shift Alt Page Down' 
+011,035,'Shift Alt End' 
+011,036,'Shift Alt Home' 
+011,037,'Shift Alt Left Arrow' 
+011,038,'Shift Alt Up Arrow' 
+011,039,'Shift Alt Right Aroow' 
+011,040,'Shift Alt Down Arrow' 
+011,044,'Shift Alt Print Screen' 
+011,045,'Shift Alt Insert' 
+011,046,'Shift Alt Delete' 
+011,048,'Shift Alt 0' 
+011,049,'Shift Alt 1' 
+011,050,'Shift Alt 2' 
+011,051,'Shift Alt 3' 
+011,052,'Shift Alt 4' 
+011,053,'Shift Alt 5' 
+011,054,'Shift Alt 6' 
+011,055,'Shift Alt 7' 
+011,056,'Shift Alt 8' 
+011,057,'Shift Alt 9' 
+011,065,'Shift Alt a' 
+011,066,'Shift Alt b' 
+011,067,'Shift Alt c' 
+011,068,'Shift Alt d' 
+011,069,'Shift Alt e' 
+011,070,'Shift Alt f' 
+011,071,'Shift Alt g' 
+011,072,'Shift Alt h' 
+011,073,'Shift Alt i' 
+011,074,'Shift Alt j' 
+011,075,'Shift Alt k' 
+011,076,'Shift Alt l' 
+011,077,'Shift Alt m' 
+011,078,'Shift Alt n' 
+011,079,'Shift Alt o' 
+011,080,'Shift Alt p' 
+011,081,'Shift Alt q' 
+011,082,'Shift Alt r' 
+011,083,'Shift Alt s' 
+011,084,'Shift Alt t' 
+011,085,'Shift Alt u' 
+011,086,'Shift Alt v' 
+011,087,'Shift Alt w' 
+011,088,'Shift Alt x' 
+011,089,'Shift Alt y' 
+011,090,'Shift Alt z' 
+011,091,'Shift Alt left windows button' 
+011,092,'Shift Alt right windows button' 
+011,093,'Shift Alt pop up menu button' 
+011,096,'Shift Alt num lock on numpad 0' 
+011,097,'Shift Alt num lock on numpad 1' 
+011,098,'Shift Alt num lock on numpad 2' 
+011,099,'Shift Alt num lock on numpad 3' 
+011,100,'Shift Alt num lock on numpad 4' 
+011,101,'Shift Alt num lock on numpad 5' 
+011,102,'Shift Alt num lock on numpad 6' 
+011,103,'Shift Alt num lock on numpad 7' 
+011,104,'Shift Alt num lock on numpad 8' 
+011,105,'Shift Alt num lock on numpad 9' 
+011,106,'Shift Alt numpad *' 
+011,107,'Shift Alt numpad +'
+011,109,'Shift Alt numpad -' 
+011,110,'Shift Alt num lock on numpad .' 
+011,111,'Shift Alt numpad /' 
+011,112,'Shift Alt F1' 
+011,113,'Shift Alt F2' 
+011,114,'Shift Alt F3' 
+011,115,'Shift Alt F4' 
+011,116,'Shift Alt F5' 
+011,117,'Shift Alt F6' 
+011,118,'Shift Alt F7' 
+011,119,'Shift Alt F8' 
+011,120,'Shift Alt F9' 
+011,121,'Shift Alt F10' 
+011,122,'Shift Alt F11' 
+011,123,'Shift Alt F12' 
+011,144,'Shift Alt Num lock' 
+011,145,'Shift Alt Scroll Lock' 
+011,186,'Shift Alt ;' 
+011,187,'Shift Alt =' 
+011,188,'Shift Alt comma' 
+011,189,'Shift Alt -' 
+011,190,'Shift Alt punt' 
+011,191,'Shift Alt /' 
+011,192,'Shift Alt single back qoute (~)' 
+011,219,'Shift Alt [' 
+011,220,'Shift Alt \' 
+011,221,'Shift Alt ]' 
+011,222,'Shift Alt single quote' 
+111,008,'Control Shift Alt backpace' 
+111,009,'Control Shift Alt Tab 
+111,013,'Control Shift Alt Enter and numpad Enter' 
+111,016,'Control Shift Alt left and right Shift' 
+111,017,'Control Shift Alt Control' 
+111,018,'Control Shift Alt left and right Alt' 
+111,019,'Control Shift Alt Pause' 
+111,020,'Control Shift Alt Caps lock' 
+111,027,'Control Shift Alt escape' 
+111,032,'Control Shift Alt space' 
+111,033,'Control Shift Alt Page Up' 
+111,034,'Control Shift Alt Page Down' 
+111,035,'Control Shift Alt End' 
+111,036,'Control Shift Alt Home' 
+111,037,'Control Shift Alt Left Arrow' 
+111,038,'Control Shift Alt Up Arrow' 
+111,039,'Control Shift Alt Right Aroow' 
+111,040,'Control Shift Alt Down Arrow' 
+111,044,'Control Shift Alt Print Screen' 
+111,045,'Control Shift Alt Insert' 
+111,046,'Control Shift Alt Delete' 
+111,048,'Control Shift Alt 0' 
+111,049,'Control Shift Alt 1' 
+111,050,'Control Shift Alt 2' 
+111,051,'Control Shift Alt 3' 
+111,052,'Control Shift Alt 4' 
+111,053,'Control Shift Alt 5' 
+111,054,'Control Shift Alt 6' 
+111,055,'Control Shift Alt 7' 
+111,056,'Control Shift Alt 8' 
+111,057,'Control Shift Alt 9' 
+111,065,'Control Shift Alt a' 
+111,066,'Control Shift Alt b' 
+111,067,'Control Shift Alt c' 
+111,068,'Control Shift Alt d' 
+111,069,'Control Shift Alt e' 
+111,070,'Control Shift Alt f' 
+111,071,'Control Shift Alt g' 
+111,072,'Control Shift Alt h' 
+111,073,'Control Shift Alt i' 
+111,074,'Control Shift Alt j' 
+111,075,'Control Shift Alt k' 
+111,076,'Control Shift Alt l' 
+111,077,'Control Shift Alt m' 
+111,078,'Control Shift Alt n' 
+111,079,'Control Shift Alt o' 
+111,080,'Control Shift Alt p' 
+111,081,'Control Shift Alt q' 
+111,082,'Control Shift Alt r' 
+111,083,'Control Shift Alt s' 
+111,084,'Control Shift Alt t' 
+111,085,'Control Shift Alt u' 
+111,086,'Control Shift Alt v' 
+111,087,'Control Shift Alt w' 
+111,088,'Control Shift Alt x' 
+111,089,'Control Shift Alt y' 
+111,090,'Control Shift Alt z' 
+111,091,'Control Shift Alt left windows button' 
+111,092,'Control Shift Alt right windows button' 
+111,093,'Control Shift Alt pop up menu button' 
+111,096,'Control Shift Alt num lock on numpad 0' 
+111,097,'Control Shift Alt num lock on numpad 1' 
+111,098,'Control Shift Alt num lock on numpad 2' 
+111,099,'Control Shift Alt num lock on numpad 3' 
+111,100,'Control Shift Alt num lock on numpad 4' 
+111,101,'Control Shift Alt num lock on numpad 5' 
+111,102,'Control Shift Alt num lock on numpad 6' 
+111,103,'Control Shift Alt num lock on numpad 7' 
+111,104,'Control Shift Alt num lock on numpad 8' 
+111,105,'Control Shift Alt num lock on numpad 9' 
+111,106,'Control Shift Alt numpad *' 
+111,107,'Control Shift Alt numpad +'
+111,109,'Control Shift Alt numpad -' 
+111,110,'Control Shift Alt num lock on numpad .' 
+111,111,'Control Shift Alt numpad /' 
+111,112,'Control Shift Alt F1' 
+111,113,'Control Shift Alt F2' 
+111,114,'Control Shift Alt F3' 
+111,115,'Control Shift Alt F4' 
+111,116,'Control Shift Alt F5' 
+111,117,'Control Shift Alt F6' 
+111,118,'Control Shift Alt F7' 
+111,119,'Control Shift Alt F8' 
+111,120,'Control Shift Alt F9' 
+111,121,'Control Shift Alt F10' 
+111,122,'Control Shift Alt F11' 
+111,123,'Control Shift Alt F12' 
+111,144,'Control Shift Alt Num lock' 
+111,145,'Control Shift Alt Scroll Lock' 
+111,186,'Control Shift Alt ;' 
+111,187,'Control Shift Alt =' 
+111,188,'Control Shift Alt comma' 
+111,189,'Control Shift Alt -' 
+111,190,'Control Shift Alt punt' 
+111,191,'Control Shift Alt /' 
+111,192,'Control Shift Alt single back qoute (~)' 
+111,219,'Control Shift Alt [' 
+111,220,'Control Shift Alt \' 
+111,221,'Control Shift Alt ]' 
+111,222,'Control Shift Alt single quote' 

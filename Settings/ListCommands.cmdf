@@ -1,0 +1,13 @@
+AddListCommand_ClearAll
+AddListCommand_Scherm aan/uit_Black_Toggle
+AddListCommand_Mobiel uit_BG_BGgsm|RemoveText|"Mobile uit a.u.b."
+AddListCommand_Wis melding_""
+AddListCommand_Instelling voor liederen_Setting_1
+AddListCommand_Instelling voor bijbel_Setting_2
+AddListCommand_Rondleiding_LoadCommandFile_LoadDemoCommands.cmdf
+AddListCommand_Bijbel_bijbel    
+AddListCommand_Enkele snel knoppen_LoadCommandFile_LoadSpeedButtons.cmdf
+AddListCommand_Alle snel knoppen_LoadCommandFile_LoadAllSpeedButtons.cmdf
+AddListCommand_Van de auto_AddToInput_"Van de auto 
+AddListCommand_Branden de lichten nog_AddToInput_ branden de lichten nog|ProcessInput
+

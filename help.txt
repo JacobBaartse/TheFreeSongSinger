@@ -1,0 +1,53 @@
+Overzicht belangrijkste sneltoetsen:
+
+Enter			plaats huidig lied in de afspeellijst	
+Shift Enter		Toon volgend lied uit de afspeel lijst op het scherm
+Ctrl Enter		Toon vorig lied uit de afspeel lijst op het scherm
+
+PijlLinks		ga één couplet terug
+Shift PijlLinks		ga twee coupletten terug
+
+PijlRechts		ga één couplet verder
+Shift PijlRechts	ga twee coupletten verder
+
+Ctrl 1			wissel tussen bediening en meeschrijf venster (Control één)
+Ctrl i			kies snel een nieuw achtergrond plaatje", wordt direct getoond op de beamer
+
+“melding Enter		Toon een mededeling op het scherm b.v. “van de auto … branden de lichten nog.
+“ Enter			Wis mededeling.
+
+?zoektekst Enter	Zoek naar liederen waar de zoek tekst in voor komt (gebruik meerdere woorden voor een beter zoekresulstaat)
+
+|melding met meer_regels_regels
+			Toont een mededeling op het scherm, de lied tekst verdwijnt. een _ zal de tekst verder laten gaan op een nieuwe regel.
+
+Alt PijlOmhoog		scroll een regel terug
+Alt PijlOmlaag		scroll een regel verder
+
+5 Enter			Ga naar couplet 5 of vers 5
+
+
+
+Afspeellijst 
+Liederen toevoegen
+	Type de letter van de bundel en het nummer van het lied gevolgd door een Enter
+
+Liederen verwijderen
+	Klik met de rechter muis en kies Verwijder
+
+Volgorde wijzigen
+	Klik met de linker muis op een lied in de afspeellijst houd de muis ingedrukt en sleep het lied naar de goede plaats in de afspeellijst.
+
+Voorbeelden om in een afspeel lijst te gebruiken
+P119:12 34	psalm 119 de verzen 12 en 34
+P119:12-34	psalm 119 de verzen 12 tot en met 34
+P119		psalm 119 in zijn geheel.
+NBGGen1:2-7	Genesis 1 de verzen 2 tot en met 7 uit de NBG vertaling
+
+
+
+
+
+speciale commando's
+
+Ctrl A	meldingTbvVoorzanger Enter	Stuur een tekst naar het tweede(slave) scherm.

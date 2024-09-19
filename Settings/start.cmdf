@@ -1,0 +1,13 @@
+'This file will be lanched when the start button is pressed.'
+Logging_On
+LoadKeyFile_KeySettings.txt
+
+Start,'activates the output screen'
+
+LoadCommandFile_LoadSpeedButtons.cmdf
+LoadCommandFile_LoadPopupMenuItems.cmdf
+LoadCommandFile_CommandTranslation.cmdf
+LoadCommandFile_ListCommands.cmdf
+
+MaximizeControlCenter
+ShowPreviewBeamer
