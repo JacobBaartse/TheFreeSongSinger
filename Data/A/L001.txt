@@ -1,0 +1,43 @@
+<titel>Rondleiding</titel>
+<tekst>couplet 1   met de cursor toetsen PijlLinks en 
+couplet 1   PijlRechts kan makkelijk
+couplet 1   door de coupletten worden gegaan
+
+couplet 2
+couplet 2
+couplet 2
+couplet 2
+
+couplet 3   de toetsen Home en End
+couplet 3    kunt u gebruiken om naar 
+couplet 3    het begin en eind van het lied te gaan
+couplet 3
+
+couplet 4    Bij gebruik van Shift en de pijltoetsen
+couplet 4     kan 2 coupletten worden gesprongen.
+couplet 4     
+couplet 4     dus Shift PijlRechts
+couplet 4         zal twee coupletten verder gaan
+
+couplet 5
+couplet 5
+couplet 5 
+couplet 5 
+
+couplet 6
+couplet 6
+couplet 6
+couplet 6
+
+couplet 7
+couplet 7
+couplet 7
+couplet 7
+
+couplet 8 
+couplet 8 
+couplet 8  
+couplet 8
+couplet 8</tekst>
+<copyrights>©     </copyrights>
+<toonsoort1></toonsoort1>

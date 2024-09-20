@@ -1,0 +1,8 @@
+<titel>Terug naar vorig lied</titel>
+<tekst>Middels de <i>Esc</i> en de <i>Enter</i> toetsen:
+kan met <i>Esc</i> naar het vorige lied worden gegaan en 
+met <i>Enter</i> weer terug
+
+Klik op de linker muis knop om verder te gaan met de demo.</tekst>
+<copyrights>©  </copyrights>
+<toonsoort1></toonsoort1>

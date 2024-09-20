@@ -1,6 +1,6 @@
 object SetupScreen: TSetupScreen
-  Left = 588
-  Top = 193
+  Left = 1260
+  Top = 190
   Width = 430
   Height = 500
   Caption = 'Setup'
@@ -24,8 +24,8 @@ object SetupScreen: TSetupScreen
   TextHeight = 13
   object StatusBar: TStatusBar
     Left = 0
-    Top = 423
-    Width = 422
+    Top = 418
+    Width = 414
     Height = 23
     Panels = <>
     SimplePanel = True

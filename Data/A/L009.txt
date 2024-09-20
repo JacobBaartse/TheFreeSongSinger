@@ -1,0 +1,19 @@
+<titel>Liederen zoeken</titel>
+<tekst>Zoeken naar een lied
+toets een <i>?</i> gevolgd door de gezochte tekst sluit af met een <i>Enter
+  Dit geeft een lijst van gevonden liederen
+  met de <i>Pijl naar beneden</i> kan door de lijst worden gebladerd 
+  en met <i>Enter</i> kan het lied worden getoond.
+  met de <i>Pijl naar rechts</i> kan door meer resultaten worden gebladerd
+( zoeken op aan-een sluitende woorden uit de tekst van het lied 
+       geeft het beste resultaat)
+
+Indien nodig kan er middels <i>Esc</i> teruggegaan
+  worden naar de lijst en een ander lied worden gekozen.
+Er wordt alleen gezocht op de lied tekst
+  Geef bij teveel zoek resultaten een langere zoektekst op
+Klik op de linker muis knop om verder te gaan met de demo.</tekst>
+<copyrights>©  </copyrights>
+<toonsoort1></toonsoort1>
+
+

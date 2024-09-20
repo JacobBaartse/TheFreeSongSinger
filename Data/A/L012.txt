@@ -1,0 +1,15 @@
+<titel>Een lied kiezen</titel>
+<tekst>Kiezen van de liederen:
+p15 Enter           voor psalm 15
+p119 30 Enter    voor psalm 119 vers 30
+g5 Enter             voor gezang 5
+bijbel Enter     voor de gebruikte afkortingen van de bijbel boeken.
+gen1 5 Enter     voor genisis 1 vers 5
+
+Pas na de Enter zal het huidige lied worden vervangen
+  door het nieuwe lied.
+Er zijn ook meerdere bundels beschikbaar,
+  deze zijn op aanvraag verkrijgbaar.
+Gebruik de linker muis knop om naar de volgende demo te gaan</tekst>
+<copyrights>©   </copyrights>
+<toonsoort1></toonsoort1>

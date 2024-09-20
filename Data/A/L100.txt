@@ -1,0 +1,28 @@
+<titel>Titel van lied</titel>
+<tekst>Old text
+song text
+Normal text
+Normal, <H2>Heading 2</H2> Normal
+Normal, <H3>Heading 3</H3> Normal
+Normal, <H4>Heading 4</H4> Normal
+<translation>Translation</translation>
+
+9 More text
+10 More text
+11 More text
+12 More text
+13 More text
+14 More text
+15 More text
+16 More text
+17 More text
+18 More text
+19 More text
+20 More text
+21 More text
+22 More text
+23 More text
+24 More text
+25 More text</tekst>
+<copyrights>Copy right © copy right copy right copy right copy right copy righ copy right copy righ    </copyrights>
+<toonsoort1>Tone height</toonsoort1>

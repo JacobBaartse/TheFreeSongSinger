@@ -1,0 +1,18 @@
+<titel>Scherm instellingen</titel>
+<tekst>De instellingen van het scherm kunnen worden gewijzigd,
+klik hiervoor op de rechter muis knop om het menu te krijgen
+kies uit dit menu de optie "Screen setup" om de instellingen
+ te kunnen wijzigen.
+
+Er zijn 10 voorkeur instellingen mogelijk, 
+ instelling 1 wordt standaard geladen 
+ bij het starten van het liederen programma.
+De overige instellingen kunnen
+ worden geactiveerd met 
+Alt 1   tot en met  Alt 9, Alt 0
+
+
+gebruik de linker muis knop om
+ naar de volgende demo te gaan</tekst>
+<copyrights>©  </copyrights>
+<toonsoort1></toonsoort1>

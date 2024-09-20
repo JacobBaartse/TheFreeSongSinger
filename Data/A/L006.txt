@@ -1,0 +1,14 @@
+<titel>Muziek bestanden</titel>
+<tekst>Bij een aantal liederen is een midi file aanwezig, 
+dit is te herkennen aan een # achter het lied nummer
+
+met F11 kan de midi file worden gestart
+er komt een Play Pause en Stop knop recht onder in het scherm
+en de midi file zal direct worden afgespeeld,
+De knoppen kunnen met de muis bediend worden
+
+Met F12 wordt de midi file gestopt en de knoppen verwijderd.
+
+gebruik de linker muis knop om naar de volgende demo te gaan</tekst>
+<copyrights>©  </copyrights>
+<toonsoort1></toonsoort1>

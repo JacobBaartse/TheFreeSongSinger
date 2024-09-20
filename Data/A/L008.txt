@@ -1,0 +1,32 @@
+<titel>Regel aanwijzer</titel>
+<tekst>Couplet 1 regel 1
+Couplet 1 regel 1   Bij deze demo is de regel aanwijzer aan gezet
+Couplet 1 regel 2   deze is te zien voor de eerste regel
+Couplet 1 regel 3   en kan worden verplaatst met de <i>Pijl naar beneden</i>
+Couplet 1 regel 4   en de <i>Pijl naar omhoog</i>
+Couplet 1 regel 5   
+Couplet 1 regel 6   Na het verplaatsen van de regel aanwijzer gaat ook de
+Couplet 1 regel 7   sprong indicator mee
+Couplet 1 regel 8      zodat met de <i>Pijl naar rechts</i> naar de volgende
+Couplet 1 regel 9      regel gesprongen kan worden.
+Couplet 1 regel 10
+Couplet 1 regel 11
+Couplet 1 regel 12
+Couplet 1 regel 13
+Couplet 1 regel 14
+Couplet 1 regel 15
+Couplet 1 regel 16
+Couplet 1 regel 17
+Couplet 1 regel 18
+Couplet 1 regel 19
+Couplet 1 regel 20    De regel aanwijzer kan 
+Couplet 1 regel 21        worden aan en uitgezet met <i>F6
+Couplet 1 regel 22
+Couplet 1 regel 23
+Couplet 1 regel 24
+Couplet 1 regel 25
+Couplet 1 regel 26
+Couplet 1 regel 27
+gebruik de linker muis knop om naar de volgende demo te gaan</tekst>
+<copyrights>©  </copyrights>
+<toonsoort1></toonsoort1>

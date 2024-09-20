@@ -1,0 +1,7 @@
+<titel>snel knoppen</titel>
+<tekst>Op diverse plaatsen zijn snel toetsen geplaatst. (mini icoontjes )
+
+houdt de muis even stil boven de snel toets meer informatie 
+te zien over deze toets.</tekst>
+<copyrights>©    </copyrights>
+<toonsoort1></toonsoort1>

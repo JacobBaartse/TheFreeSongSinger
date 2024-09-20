@@ -1,0 +1,7 @@
+<titel>Historie</titel>
+<tekst>In de map data is een map LOG aanwezig
+
+hierin is terug te vinden welke liederen
+wanneer zijn gepresenteerd.</tekst>
+<copyrights>©     </copyrights>
+<toonsoort1></toonsoort1>

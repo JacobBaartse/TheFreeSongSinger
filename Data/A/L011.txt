@@ -1,0 +1,15 @@
+<titel></titel>
+<tekst>
+door middel van een " gevolgd door een tekst in te voeren
+kan een knipperende melding worden gegeven
+
+probeer eens
+"Dit is een test <enter toets>
+
+en ook
+"
+
+gebruik de linker muis knop om naar de volgende demo te gaan<enter toets>
+om de melding weer weg te halen.</tekst>
+<copyrights>©  </copyrights>
+<toonsoort1></toonsoort1>

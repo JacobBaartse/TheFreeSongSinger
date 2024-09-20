@@ -1,0 +1,32 @@
+<titel>Lange coupletten</titel>
+<tekst>Couplet 1 regel 1  Sommige liederen hebben veel regels
+Couplet 1 regel 1   bij deze liederen kan de <i>Pijl omhoog</i> 
+Couplet 1 regel 2   en de <i>Pijl omlaag</i> helpen
+Couplet 1 regel 3   hiermee kan de sprong indicator worden verplaatst
+Couplet 1 regel 4   Probeer de <i>Pijl naar beneden</i> om te zien
+Couplet 1 regel 5     hoe het werkt.
+Couplet 1 regel 6
+Couplet 1 regel 7   Na het verplaatsen van de sprong indicator
+Couplet 1 regel 8      kan met de <i>Pijl naar rechts</i> naar de gewenste
+Couplet 1 regel 9      regel worden gesprongen.
+Couplet 1 regel 10
+Couplet 1 regel 11
+Couplet 1 regel 12
+Couplet 1 regel 13
+Couplet 1 regel 14
+Couplet 1 regel 15
+Couplet 1 regel 16
+Couplet 1 regel 17
+Couplet 1 regel 18
+Couplet 1 regel 19
+Couplet 1 regel 20
+Couplet 1 regel 21
+Couplet 1 regel 22
+Couplet 1 regel 23
+Couplet 1 regel 24
+Couplet 1 regel 25
+Couplet 1 regel 26
+Couplet 1 regel 27
+gebruik de linker muis knop om naar de volgende demo te gaan</tekst>
+<copyrights>©  </copyrights>
+<toonsoort1></toonsoort1>

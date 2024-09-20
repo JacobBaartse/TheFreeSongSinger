@@ -1,0 +1,16 @@
+<titel>Demo tour</titel>
+<tekst>Welcome at this demonstration,
+
+Backgrounds can be selected,
+  default the keys 
+      <i>Alt i</i> is linked to BGi.jpg
+      <i>Alt x</i> is linked to BGx.jpg etc.
+If you want to use these short cuts you will need
+a print-out of the frequenly used backgrounds
+
+Alternative you can use the speedbutton 
+with sun water and land to select a new picture.
+
+</tekst>
+<copyrights>©    </copyrights>
+<toonsoort1></toonsoort1>

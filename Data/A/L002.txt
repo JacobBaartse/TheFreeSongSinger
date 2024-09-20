@@ -1,0 +1,8 @@
+<titel>Muziek</titel>
+<tekst>Muziek bestanden kunnen worden toegevoegd,
+dit mogen .mid of .mp3 bestanden zijn.
+
+in de bediening wordt dan een afspeel knop getoond 
+boven de lied tekst.</tekst>
+<copyrights>©   </copyrights>
+<toonsoort1></toonsoort1>

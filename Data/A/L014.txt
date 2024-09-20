@@ -1,0 +1,13 @@
+<titel>Einde demo tour</titel>
+<tekst>Dit waren enkele van de belangrijkste mogelijkheden van dit programma,
+
+Er zijn nog meer mogelijkheden zoals:
+- het maken van een afspeellijst ( start de playlist editor met F9 )
+- het gebruik maken van de muis inplaats van het toestenbord
+
+Al deze mogelijkheden zijn te vinden in de Handleiding (Manual.doc)
+   te vinden in het <i>Start menu, Programma's, The free song singer, Handleiding.
+
+Klik op de linker muis knop om verder te gaan met de demo.</tekst>
+<copyrights>©  </copyrights>
+<toonsoort1></toonsoort1>

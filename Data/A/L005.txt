@@ -1,0 +1,37 @@
+<titel>Couplet nummering</titel>
+<tekst>1) Couplet 1 Als de coupletten aan het begin
+van de regel genummerd zijn dan kan hiervan 
+gebruik worden gemaakt,
+gebruik de toetsen <i>1 Enter</i> om naar couplet één te gaan
+<i>2 Enter</i> voor couplet 2 etc.
+Deze functie is vooral handig bij liederen met
+veel coupletten zoals bijvoorbeel bij psalm 119
+Of als je vaak heen en weer moet springen door een lied.
+
+2) Couplet 2
+Couplet 2
+Couplet 2
+Couplet 2
+
+3) Couplet 3
+Couplet 3
+Couplet 3
+Couplet 3
+
+4) Couplet 4
+Couplet 4
+Couplet 4
+Couplet 4
+
+5) Couplet 5
+Couplet 5
+Couplet 5
+Couplet 5
+
+6) Couplet 6
+Couplet 6
+Couplet 6
+Couplet 6 einde van het lied
+gebruik de linker muis knop om naar de volgende demo te gaan</tekst>
+<copyrights>©  </copyrights>
+<toonsoort1></toonsoort1>

@@ -1,0 +1,5 @@
+<tekst>Hartelijk dank voor uw aandacht
+dit is het einde van de demonstratie
+gebruik <i>Alt F4</i> om het programma af te sluiten.</tekst>
+<copyrights>©</copyrights>
+<toonsoort1></toonsoort1>

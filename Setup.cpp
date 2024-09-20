@@ -30,20 +30,21 @@ void  TSetupScreen::UpdateFullGui()
 {
     switch ( ElementSel->ItemIndex)
     {
+    //       void adjustGui(type, color, smaler, larger, up, left, right, down, reset, outlineless, outlinemore, outlinecolor, active);
        case  0:  adjustGui(1,1,1,1,0,0,0,0,0,1,1,1,0); break;  // all text
        case  1:  adjustGui(1,1,1,1,1,1,1,1,1,1,1,1,0); break;  // song text
        case  2:  adjustGui(1,1,1,1,0,0,0,0,0,1,1,1,0); break;  // normal text
        case  3:  adjustGui(0,1,0,0,0,0,0,0,0,0,0,0,0); break;  // old text
-       case  4:  adjustGui(0,1,0,0,0,0,0,0,0,0,0,0,0); break;  // Heading 2
-       case  5:  adjustGui(0,1,0,0,0,0,0,0,0,0,0,0,0); break;  // Heading 3
-       case  6:  adjustGui(0,1,0,0,0,0,0,0,0,0,0,0,0); break;  // Heading 4
+       case  4:  adjustGui(0,1,1,1,0,0,0,0,0,0,0,0,0); break;  // Heading 2
+       case  5:  adjustGui(0,1,1,1,0,0,0,0,0,0,0,0,0); break;  // Heading 3
+       case  6:  adjustGui(0,1,1,1,0,0,0,0,0,0,0,0,0); break;  // Heading 4
        case  7:  adjustGui(1,1,1,1,1,1,1,1,1,1,1,1,0); break;  // Translation
        case  8:  adjustGui(1,1,1,1,1,1,1,1,1,1,1,1,1); break;  // Tone height
        case  9:  adjustGui(1,1,1,1,1,1,1,1,1,1,1,1,1); break;  // song Title
        case  10: adjustGui(1,1,1,1,1,1,1,1,1,1,1,1,0); break;  // Blink message
        case  11: adjustGui(1,1,1,1,1,1,1,1,1,1,1,1,1); break;  // Line pointer
        case  12: adjustGui(1,1,1,1,1,1,1,1,1,1,1,1,1); break;  // CurrentSong
-       case  13: adjustGui(1,1,1,1,1,1,1,1,1,1,1,1,0); break;  // Copy right
+       case  13: adjustGui(1,1,1,1,1,1,1,1,1,1,1,1,1); break;  // Copy right
        case  14: adjustGui(1,1,1,1,1,1,1,1,1,1,1,1,0); break;  // Pause blik message
     };
     UpdateButtons();
