@@ -499,7 +499,8 @@ void TOutputScreen::refreshScreen()
 
           //copy right
           si = curScreenSettings.CurSettings.ScreenElement[SettingsData::COPY_RIGHT];
-          printLineXY(curScreenSettings.CurSongData.copyRightText, si->Xpos + (Width/6), Height - (si->Font->Size * 3) + si->Ypos, false ,false, SettingsData::COPY_RIGHT, true, false);
+          if (si->Active)
+                printLineXY(curScreenSettings.CurSongData.copyRightText, si->Xpos + (Width/6), Height - (si->Font->Size * 3) + si->Ypos, false ,false, SettingsData::COPY_RIGHT, true, false);
 
           //song title
           si = curScreenSettings.CurSettings.ScreenElement[SettingsData::TITLE_TEXT];
