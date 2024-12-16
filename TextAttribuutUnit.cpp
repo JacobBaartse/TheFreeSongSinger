@@ -49,7 +49,7 @@ void TextAttribuut::set(String s)
                  Font = MainForm->FontDialog->Font;
          }
     else if (s=="Reduce")  { if (Font->Size > 8) Font->Size--; }
-    else if (s=="Enlarge") { if (Font->Size < 72) Font->Size++; }
+    else if (s=="Enlarge") { if (Font->Size < 300) Font->Size++; }
     else if (s=="Outline_Color")
          {
              MainForm->ColorDialog->Color = OutlineColor;
@@ -57,7 +57,7 @@ void TextAttribuut::set(String s)
                  OutlineColor = MainForm->ColorDialog->Color;
          }
     else if (s=="Outline_Less") {  if (OutlineThickness > 0) OutlineThickness--; }
-    else if (s=="Outline_More") {  if (OutlineThickness < 3) OutlineThickness++; }
+    else if (s=="Outline_More") {  if (OutlineThickness < 6) OutlineThickness++; }
 }
 
 void TextAttribuut::setFont(TFont * t)

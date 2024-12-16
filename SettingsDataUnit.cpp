@@ -343,7 +343,7 @@ int SettingsData::getPictureIndex(String s)
 void SettingsData::setLineDistance(String s)
 {
      if (s=="Less")      { if (LineDistance>13) LineDistance--; }
-     else if (s=="More") { if (LineDistance<72) LineDistance++; }
+     else if (s=="More") { if (LineDistance<300) LineDistance++; }
 }
 //---------------------------------------------------------------------------
 
